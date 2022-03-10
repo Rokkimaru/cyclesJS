@@ -7,7 +7,7 @@ export function rangeSum(start, end) {
   let m=0;
   for(let i=start; i<=end;i++){
     if(i%2==0){
-      m+=m;
+      m+=i;
     }
   }
   return m;
